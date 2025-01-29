@@ -1,0 +1,2 @@
+[console_scripts]
+dossenge = Dossenge.Dossenge:dossenge
