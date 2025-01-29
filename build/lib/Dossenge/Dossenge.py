@@ -65,7 +65,9 @@ def dossenge():
         print(f'cr : {cr}')
 
 def fibonacci(number):
-    if number == 0:
+    if number < 0:
+        raise ValueError('number cannot be < 0')
+    elif number == 0:
         return 0
     elif number == 1:
         return 1
