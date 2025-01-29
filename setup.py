@@ -22,6 +22,7 @@ setup(
     install_requires=[
         # List of dependencies
         'toml',
+        'requests'
     ],
     # classifiers=[
         # 'Development Status :: 3 - Alpha',
