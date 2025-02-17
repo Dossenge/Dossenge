@@ -3,6 +3,8 @@ setup.py
 Dossenge/Dossenge.py
 Dossenge/__init__.py
 Dossenge/http.py
+Dossenge/progress.py
+Dossenge/stdio.py
 Dossenge/string.py
 Dossenge.egg-info/PKG-INFO
 Dossenge.egg-info/SOURCES.txt

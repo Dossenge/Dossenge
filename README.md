@@ -59,6 +59,18 @@ if response:
     print(response.json())
 	
 ```
+
+## 进度条
+
+**引入方法：** `from Dossenge.progress import *`
+
+**方法列表：**
+```python
+Dossenge.progress.progress(start, end, timer, progresses) # 发送带有自定义请求头的 HTTP 请求
+# progresses参数是一个列表，代表每走1格执行的Python代码
+```
+
+
 ## 可执行文件
 ```bash
 dossenge equal 0.1+0.2 0.3 5
